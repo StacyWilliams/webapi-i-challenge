@@ -19,7 +19,7 @@ Use Node.js and Express to build an API that performs CRUD operations on users.
 ### Database access
 
 Database access will be done using the `db.js` file included inside the `data` folder. This file publishes the following methods:
-
+<!-- helper functions -->
 - `find()`: calling find returns a promise that resolves to an array of all the users contained in the database.
 - `findById()`: this method expects an `id` as it's only parameter and returns the user corresponding to the `id` provided or an empty array if no user with that `id` is found.
 - `insert()`: calling insert passing it a user object will add it to the database and return an object with the `id` of the inserted user. The object looks like this: `{ id: 123 }`.
